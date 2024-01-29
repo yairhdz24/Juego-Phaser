@@ -28,7 +28,7 @@ var scoreText;
 var game = new Phaser.Game(config);
 
 function preload() {
-  // Cargar imágenes y sprites necesarios
+ 
   this.load.image("sky", "./images/background.png");
   this.load.image("ground", "./images/Platform.jpeg");
   this.load.image("moneda", "./images/moneda.png");
